@@ -1,12 +1,12 @@
-# 【lvgl-freetype】使用说明
-## 1、menuconfig配置
-### 1.1、LV_USE_FREETYPE
-- 使用Freetype需要在menuconfig打开LV_USE_FREETYPE选项
+# 【lvgl-freetype】Usage Guide
+## 1.Menuconfig Configuration
+### 1.1.LV_USE_FREETYPE
+- To use Freetype, you need to enable the LV_USE_FREETYPE option in menuconfig
 ![](./img/lv_use_freetype.png)
 
-### 1.2、分区表配置
-- 字库文件比较大，默认分区表分配空间不足，需使用自定义分区表
+### 1.2.Partition Table Configuration
+- Font files are relatively large, and the default partition table does not allocate enough space. A custom partition table is required.
 ![](./img/csv.png)
 
-## 2、IDF版本
-- 使用 5.1 版本
+## 2.IDF Version
+- This example requires ESP-IDF v5.1
